@@ -1,0 +1,12 @@
+$('#btnClima').click(function () {
+$.ajax({
+url: 'https://s1uplfovq4.execute-api.us-east-1.amazonaws.com/default/example',
+method: 'GET',
+success: function (data) {
+$('#resultado').removeClass('d-none').text(data.mensaje);
+},
+error: function () {
+$('#resultado').removeClass('d-none').text('Error al obtener datos.');
+}
+});
+});

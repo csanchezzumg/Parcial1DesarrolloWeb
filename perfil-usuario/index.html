@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-//Inicio de cuerpo de págian
+<!-- Inicio de cuerpo de página -->
 <body class="bg-light">
 
 <div class="container mt-4">
@@ -18,8 +18,13 @@
     <img src="img/profilepic.jpg" alt="Mi foto de perfil" class="rounded-circle profile-img mb-3">
 
     <p id="bio">Hola, soy estudiante de Ingeniería en la UMG.</p>
-    <a href="demo-api-rest.html" class="btn btn-primary me-2">Ver Clima</a>
+
+    <!-- Botón actualizado para mostrar el mensaje motivacional directamente -->
+    <button id="btnClima" class="btn btn-primary me-2">Ver mensaje motivacional</button>
     <a href="#" class="btn btn-secondary" id="btnCambiarTexto">Cambiar descripción</a>
+
+    <!-- Contenedor para mostrar el mensaje del API -->
+    <div id="resultado" class="alert alert-info d-none mt-3"></div>
 
     <ul id="intereses" class="list-group mb-3">
         <li class="list-group-item">Tecnología</li>
@@ -59,6 +64,7 @@
     <button id="btnColor" class="btn btn-warning">Cambiar Fondo</button>
 </div>
 
+<!-- Scripts -->
 <script src="js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>

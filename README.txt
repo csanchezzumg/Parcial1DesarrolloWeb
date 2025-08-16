@@ -1,1 +1,1 @@
-Documento de texto de prueba para git commit.
+Documento de texto de prueba para git push.

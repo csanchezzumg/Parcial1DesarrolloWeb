@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
+  transition: background-color 0.5s ease;
+}
+
+.profile-img {
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+}
+
+ul::before {
+  content: "Intereses:";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
